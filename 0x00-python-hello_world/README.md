@@ -29,6 +29,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!```
 
+
 # About PEP-8 (Pycodestyle)
 The pycodestyle checker provides code recommendations based on the PEP-8 style conventions. So what exactly is PEP-8?
 
