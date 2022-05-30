@@ -10,7 +10,7 @@ A high-level language does not require addressing hardware constraints when deve
 # ADVANTAGES OF HIGH-LEVEL LANGUAGES
  The main advantage of high-level languages over low-level languages is that they are easier to read, write, and maintain. Ultimately, programs written in a high-level language must be translated into machine language by a compiler or interpreter.
 
-The first high-level programming languages were designed in the 1950s. Now there are dozens of different languages, including Ada, Algol, BASIC, COBOL, C, C++, FORTRAN, LISP, Pascal, and Prolog.
+The first high-level programming languages were designed in the 1950s. Now there are dozens of different languages, including ```Ada, Algol, BASIC, COBOL, C, C++, FORTRAN, LISP, Pascal, and Prolog.```
 
 # HIGH-LEVEL VS. LOW-LEVEL LANGUAGES
  Low-level languages require little interpretation by the computer. This makes machine code fast compared to other programming languages. Low-level languages gives programmers more control over data storage, memory, and computer hardware. It’s typically used to write kernel or driver software. It wouldn’t be used to write web applications or games.
