@@ -9,7 +9,8 @@ The Python interpreter is usually installed as ```/usr/local/bin/python3.10``` o
 
 # The Zen of Python, by Tim Peters
 
-```Beautiful is better than ugly.
+```
+Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
@@ -27,9 +28,8 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!```
-
-
+Namespaces are one honking great idea -- let's do more of those!
+```
 # About PEP-8 (Pycodestyle)
 The pycodestyle checker provides code recommendations based on the PEP-8 style conventions. So what exactly is PEP-8?
 
