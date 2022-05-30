@@ -28,3 +28,16 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!```
+
+# About PEP-8 (Pycodestyle)
+The pycodestyle checker provides code recommendations based on the PEP-8 style conventions. So what exactly is PEP-8?
+
+PEP stands for Python Enhancement Proposal, and PEP-8 is a guide that outlines the best practices of writing Python code. Authored in 2001, its main objective is to improve overall code consistency and readability by standardizing code styles.
+
+One thing to note is that PEP-8 is meant to serve as a guide, and not intended to be interpreted as biblical instructions to always strictly adhere to.
+
+# Features of Pycodestyle
+1. Plugin architecture: Adding new checks is easy.
+2. Parseable output: Jump to error location in your editor.
+3. Small: Just one Python file, requires only stdlib. You can use just the ```pycodestyle.py``` file for this purpose.
+4. Comes with a comprehensive test suite.
