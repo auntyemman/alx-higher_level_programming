@@ -42,3 +42,4 @@ One thing to note is that PEP-8 is meant to serve as a guide, and not intended t
 2. Parseable output: Jump to error location in your editor.
 3. Small: Just one Python file, requires only stdlib. You can use just the ```pycodestyle.py``` file for this purpose.
 4. Comes with a comprehensive test suite.
+
