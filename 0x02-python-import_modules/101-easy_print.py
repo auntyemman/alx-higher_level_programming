@@ -1,2 +1,3 @@
-#!/usr/bim/python3
+#!/usr/bin/python3
+
 import myPrintModule
