@@ -3,11 +3,11 @@
 def safe_print_division(a, b):
     """  A function that divides 2 integers and prints the result """
     try:
-        division = a / b
+        result = a / b
 
     except (ZeroDivisionError, TypeError):
-        division = None
+        result = None
 
     finally:
-        print("Inside result: {}". format(division))
-    return division
+        print("Inside result: {}". format(result))
+    return result
