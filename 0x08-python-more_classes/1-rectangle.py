@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 This module defines the a Rectangle Object.
 """
@@ -9,7 +8,7 @@ class Rectangle:
     """Retangle object with getter and setters
     """
 
-    def __init__(self, width=0 , height=0):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
