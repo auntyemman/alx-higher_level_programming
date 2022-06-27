@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
 """
-Defines module with Rectangle Object.
+This module defines the a Rectangle Object.
 """
 
 
 class Rectangle:
-    """Defines Rectangle class Object."""
+    """Retangle object with getter and setters
+    """
 
     def __init__(self, width=0 , height=0):
         self.width = width
