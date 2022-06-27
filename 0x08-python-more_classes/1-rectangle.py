@@ -5,7 +5,10 @@ This module defines the a Rectangle Object.
 
 
 class Rectangle:
-    """Retangle object with getter and setters
+    """DEfines Retangle object with getter and setters.
+    Args:
+            width (int): The width of the new rectangle.
+            height (int): The height of the new rectangle.
     """
 
     def __init__(self, width=0, height=0):
