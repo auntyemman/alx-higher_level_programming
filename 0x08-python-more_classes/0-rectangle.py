@@ -4,6 +4,8 @@
 Defining a Rectangle class.
 """
 
+
+
 class Rectangle:
     """
     Defines an empty Rctangle class Object.
