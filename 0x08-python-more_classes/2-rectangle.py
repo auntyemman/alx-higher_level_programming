@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+"""
+This module defines the a Rectangle Object.
+"""
+
 
 class Rectangle:
+    """Retangle object with getter and setters
+    """
+
     def __init__(self, width=0 , height=0):
         self.width = width
         self.height = height
@@ -34,6 +41,7 @@ class Rectangle:
 
     def area(self):
         return self.__height * self.__width
+
     def perimeter(self):
         if self.__height == 0  or self.__width == 0:
             return 0
