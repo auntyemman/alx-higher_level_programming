@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""
-This module implements a custom list object
-"""
+''' Module: 1-my_list
+'''
 
 
 class MyList(list):
-    """Custom List
-    """
+    ''' Represents a MyList
+    '''
+
     def print_sorted(self):
-        """
-        prints the list, but sorted (ascending sort)
-        """
+        '''
+        prints the list, but sorted
+        '''
         print(sorted(self))
