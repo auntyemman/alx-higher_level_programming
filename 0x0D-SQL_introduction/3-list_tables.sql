@@ -1,2 +1,3 @@
---List tables Using SHOW from the database
-SHOW TABLES;
+-- List all tables of a database in your MySQL database
+-- DB name will be passed as argument of mysql command
+SHOW tables;
