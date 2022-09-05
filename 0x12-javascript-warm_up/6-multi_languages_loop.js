@@ -1,6 +1,5 @@
 #!/usr/bin/node
-let arr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-
-for (let i = 0, i < arr.length; i++) {
-  console.log(arr[i]);
+let myArr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let i = 0; i < myArr.length; i++) {
+  console.log(myArr[i]);
 }
