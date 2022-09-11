@@ -1,4 +1,5 @@
-mport MySQLdb
+#!/usr/bin/python3
+import MySQLdb
 
 from sys import argv
 
@@ -21,8 +22,8 @@ if __name__ == "__main__":
     db = cursor.fetchall()
 
     for i in db:
-         print(i)
+        print(i)
 
     cursor.close()
 
-    db.close()
+    db.disconnect()
