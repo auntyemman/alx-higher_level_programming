@@ -1,26 +1,22 @@
 #!/usr/bin/python3
+"""List all states from a given db sorted in ascending order by id
+Username, password, and database names are given as user args
+"""
+import sys
 import MySQLdb
 
-from sys import argv
-
-
-
-'''
-a script that lists all states
-from the database
-'''
 if __name__ == "__main__":
-    con = MySQLdb.connect(host="localhost", port=3306, user=argv[1], password=argv[2], database=argv[3])
+    db = MySQLdb.connect(user=sys.argv[1],
+                         passwd=sys.argv[2],
+                         db=sys.argv[3],
+                         host='localhost',
+                         port=3306)
+    cur = db.cursor()
+    cur.execute("SELECT id, name FROM states ORDER BY id ASC")
+    allStates = cur.fetchall()
 
-    cursor = con.cursor()
+    for state in allStates:
+        print(state)
 
-    cursor.execute("SELECT * FROM states ORDER BY id ASC")
-
-    db = cursor.fetchall()
-
-    for i in db:
-        print(i)
-
-    cursor.close()
-
-    db.disconnect()
+    cur.close()
+    db.close()
